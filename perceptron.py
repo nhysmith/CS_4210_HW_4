@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------
 # AUTHOR: Nishara Hysmith
 # FILENAME: perceptron.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: This program finds and displays the accuracies of both Perceptron and Multilayer Percerptrons
 # FOR: CS 4210- Assignment #4
 # TIME SPENT: 1.5 hours
 #-----------------------------------------------------------*/
