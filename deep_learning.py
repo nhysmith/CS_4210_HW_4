@@ -1,6 +1,6 @@
 #-------------------------------------------------------------------------
 # AUTHOR: Nishara Hysmith
-# FILENAME: title of the source file
+# FILENAME: deep_learning.py
 # SPECIFICATION: description of the program
 # FOR: CS 4210- Assignment #4
 # TIME SPENT: 2 hours
