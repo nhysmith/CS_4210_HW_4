@@ -1,9 +1,9 @@
 #-------------------------------------------------------------------------
 # AUTHOR: Nishara Hysmith
-# FILENAME: deep_learning.py
+# FILENAME: title of the source file
 # SPECIFICATION: description of the program
 # FOR: CS 4210- Assignment #4
-# TIME SPENT: how long it took you to complete the assignment
+# TIME SPENT: 2 hours
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: YOU CAN USE ANY PYTHON LIBRARY TO COMPLETE YOUR CODE.
@@ -25,7 +25,8 @@ def build_model(n_hidden, n_neurons_hidden, n_neurons_output, learning_rate):
     model.add(keras.layers.Flatten(input_shape=[28, 28]))                                #input layer
 
     #iterate over the number of hidden layers to create the hidden layers:
-    model.add(keras.layers.Dense(n_neurons_hidden, activation="relu"))                   #hidden layer with ReLU activation function
+    for a in range(n_hidden):
+      model.add(keras.layers.Dense(n_neurons_hidden, activation="relu"))                   #hidden layer with ReLU activation function
 
     #output layer
     model.add(keras.layers.Dense(n_neurons_output, activation="softmax"))                #output layer with one neural for each class and the softmax activation function since the classes are exclusive
@@ -100,3 +101,6 @@ pd.DataFrame(history.history).plot(figsize=(8, 5))
 plt.grid(True)
 plt.gca().set_ylim(0, 1) # set the vertical range to [0-1]
 plt.show()
+
+import os
+print(os.getcwd())
