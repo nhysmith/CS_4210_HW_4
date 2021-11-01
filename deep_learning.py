@@ -1,7 +1,7 @@
 #-------------------------------------------------------------------------
 # AUTHOR: Nishara Hysmith
 # FILENAME: deep_learning.py
-# SPECIFICATION: description of the program
+# SPECIFICATION: This program finds the highest accuracy deep learning model, by varying the number of hidden layers, hidden neurons and the learning rate.
 # FOR: CS 4210- Assignment #4
 # TIME SPENT: 2 hours
 #-----------------------------------------------------------*/
